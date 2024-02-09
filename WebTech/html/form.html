@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- make a form containing name, age, gender dob and marital status -->
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required value="Mohitur" readonly>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required>
+        <br>
+        <label for="gender">Gender: </label>
+        <input type="text" name="gender" id="gender">
+        <br>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob">
+        <br>
+
+        <!-- create a radio selectors for marital status -->
+        <label for="marital_status">Marital Status: </label>
+        <input type="radio" name="marital_status" value="single">Single
+        <input type="radio" name="marital_status" value="married">Married
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+
+        <input type="text" style="height: 100px; width: 200px;" placeholder="Enter your text here">
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

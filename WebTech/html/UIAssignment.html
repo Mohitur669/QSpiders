@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }*/
+
+        tr {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- make a list of songs list in different languages Indian(hindi telegu oriya) and international-->
+
+    <h2>Songs</h2>
+    <ol type="I">
+        <li>Indian
+            <ol type="a">
+                <li><a href="audio.html" target="_blank">Hindi</a></li>
+                <li><a href="audio.html" target="_blank">Telegu</a></li>
+                <li><a href="audio.html" target="_blank">Oriya</a></li>
+            </ol>
+        </li>
+        <li>International
+            <ol>
+                <li><a href="audio.html" target="_blank">English</a></li>
+            </ol>
+        </li>
+    </ol>
+
+    <br>
+    <hr>
+
+    <!-- make a singers table containing image, name and song with link and anchor tag to auto download -->
+    <h2>Singers</h2>
+    <table border="1" cellspacing="0" style="height: 400px; width: 550px;">
+        <tr>
+            <th>Image</th>
+            <th>Singer Name</th>
+            <th>Song</th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Arijit_Singh" target="_blank"><img src="data/arijit.jpg"
+                        alt="img"></a>
+            </td>
+            <td>
+                Arijit Singh
+            </td>
+            <td>
+                Tum Hi Ho
+                <br>
+                <a href="data/sound.mp3" download>Download</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Atif_Aslam" target="_blank"><img src="data/atif.jpg"
+                        alt="img"></a>
+            </td>
+            <td>
+                Atif Aslam
+            </td>
+            <td>
+                Pehli Dafa
+                <br>
+                <a href="data/sound.mp3" download>Download</a>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

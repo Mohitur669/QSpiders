@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 3px solid black;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    color: white !important;
+}
+
+#second {
+    background-color: purple;
+}
+
+#third {
+    background-color: green;
+    color: red;
+}
+
+.fourth {
+    background-color: black;
+    color: red;
+}
