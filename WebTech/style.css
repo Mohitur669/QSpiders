@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +7,7 @@
     background-color: white;
     color: black;
     font-size: 30px;
+    font-family: Inter, sans-serif;
 }
 
 div {
@@ -28,9 +31,14 @@ div {
 #third {
     background-color: green;
     color: red;
+    text-decoration: overline underline line-through wavy;
 }
 
 .fourth {
     background-color: black;
     color: red;
+    /* Writing a  text vertically */
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
 }

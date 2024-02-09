@@ -104,5 +104,5 @@ public class Pattern1 {
     // calling a static method
 
     // we can call a static method by: 1. directly 2. by object 3. by class name
-
+    
 }
