@@ -100,5 +100,9 @@ public class Pattern1 {
     // method name should follow camel casing
     // if we want to execute the codes present inside a method then we need to call that method
 
-    
+    // calling a method means go to that method, execute the codes present inside that method and come back
+    // calling a static method
+
+    // we can call a static method by: 1. directly 2. by object 3. by class name
+
 }
