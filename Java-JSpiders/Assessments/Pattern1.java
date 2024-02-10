@@ -6,14 +6,14 @@ public class Pattern1 {
         System.out.print("Enter a number: ");
         int a = sc.nextInt();
 
-        logic5(a);
-        System.out.println();
-        logic4(a);
-        System.out.println();
+//        logic5(a);
+//        System.out.println();
+//        logic4(a);
+//        System.out.println();
         logic3(a);
-        System.out.println();
-        equilateralTriangle(a);
-        pyramid(a);
+//        System.out.println();
+//        equilateralTriangle(a);
+//        pyramid(a);
     }
 
     public static void logic1(int a) {
