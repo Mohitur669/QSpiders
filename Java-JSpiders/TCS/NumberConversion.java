@@ -1,5 +1,5 @@
 public class NumberConversion {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         int binary = 1010;
         int decimal = 10;
 

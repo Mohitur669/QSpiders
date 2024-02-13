@@ -53,8 +53,5 @@ public class Test {
 
         String date = "June 5, 2022 1:28:19 PM";
         System.out.println(date.indexOf('2', 9));
-
-
-
     }
 }

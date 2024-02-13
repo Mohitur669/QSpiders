@@ -11,7 +11,7 @@ public class BinarySearch {
         }
     }
 
-    static int binarySearch(int[] arr, int x) {
+    public static int binarySearch(int[] arr, int x) {
         int left = 0;
         int right = arr.length - 1;
 
@@ -26,6 +26,25 @@ public class BinarySearch {
                 left = mid + 1;
             } else {
                 right = mid - 1;
+            }
+        }
+
+        return -1;
+    }
+
+    // binarySearch recursive
+    public static int binarySearchRecursive(int[] arr, int x, int left, int right) {
+        if (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (arr[mid] == x) {
+                return mid;
+            }
+
+            if (arr[mid] < x) {
+                return binarySearchRecursive(arr, x, mid + 1, right);
+            } else {
+                return binarySearchRecursive(arr, x, left, mid - 1);
             }
         }
 
