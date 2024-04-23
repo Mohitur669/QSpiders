@@ -4,16 +4,16 @@ public class FibonacciNumber {
         int a = 0;
         int b = 1;
 
-        for (int i = 0; i < n; i++) {
-            System.out.println(a);
-            int sum = a + b;
-            a = b;
-            b = sum;
-        }
+        //for (int i = 0; i < n; i++) {
+        //    System.out.println(a);
+        //    int sum = a + b;
+        //    a = b;
+        //    b = sum;
+        //}
 
-//        for (int i = 0; i < n; i++) {
-//            System.out.println(fibonacci(i));
-//        }
+        for (int i = 0; i < n; i++) {
+            System.out.println(fibonacci(i));
+        }
     }
 
     public static int fibonacci(int n) {
